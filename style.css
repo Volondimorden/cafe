@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f0ed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #4e342e;;
+    text-align: center;
+}
+
+header{
+    background-color:#d7ccc8 ;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    margin: 0px 15px;
+    color:  #5d4037;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #a1887f;
+  }
+
+  #hero{
+    padding: 80px 20px;
+    background-color:#ffffff ;
+    box-shadow: 10px 2px 14px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+
+  button {
+    background-color: #6b4e3d; /* Кавовий колір */
+    color: #fff; /* Білий текст */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Плавний ефект */
+  }
+  
+  button:hover {
+    background-color: #5a3f31; /* Темніший при наведенні */
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px 15px; /* Внутрішній відступ для зручності */
+    border: 1px solid #ccc; /* Світла рамка */
+    border-radius: 8px; /* Заокруглені кути */
+    font-family: inherit; /* Щоб шрифт не відрізнявся */
+    margin-bottom: 15px; /* Відступ між елементами */
+    box-sizing: border-box; /* Щоб padding не розтягував ширину */
+  }
+
+  section {
+    background-color: #fefefe;
+    margin: 40px auto;
+    padding: 40px 20px;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.03);
+  }
+  
+  footer {
+    background-color: #a1887f; /* Темно-бежевий */
+    color: #fff; /* Білий текст */
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  #contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+}
+  
+.menu-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.menu-item{
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.menu-item:hover{
+    transform: scale(1.05);
+    box-shadow: 6px 6px 20px rgba(0,0,0,0.2);
+}
+
+.menu-gallery figure {
+    text-align: center;
+    margin: 0;
+    
+}
+
+.menu-gallery figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #6b4e3d;
+    font-weight: 600;
+}
+
+.menu-item{
+    border-radius: 12px;
+    border: 2px solid #e0dcd7;
+    max-height: 200px;
+    object-fit: cover;
+}
